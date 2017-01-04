@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\sticker">
+      <UniqueIdentifier>{d32f00f6-b989-419b-b9ea-a4d9423edf8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sticker">
+      <UniqueIdentifier>{29a930cf-5c2a-4d6a-b76b-3dfb02f18228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sticker\common">
+      <UniqueIdentifier>{98a09668-68e5-4406-9ac1-0ce9ec0c5482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sticker\common">
+      <UniqueIdentifier>{8e16caf2-2b0e-4da7-a170-c9fab41b4158}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sticker\show">
+      <UniqueIdentifier>{cf217aa9-07f8-4d56-80a8-997db0df3435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sticker\stickerRow">
+      <UniqueIdentifier>{c45c35ca-22a4-481e-a5c4-6c84017de97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sticker\show">
+      <UniqueIdentifier>{42b15436-1029-4da7-b7d4-c5fb8d23899b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sticker\stickerRow">
+      <UniqueIdentifier>{78f6f029-634b-41d5-ae31-f4fc4c17bd0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sticker\bmp">
+      <UniqueIdentifier>{6b080a1b-dec9-45ea-8d64-0c9dff8cff8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sticker\bmp">
+      <UniqueIdentifier>{6ebfa243-0887-40d4-9138-2fcc4e601c56}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="noteBookInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\common\cursorPos.h">
+      <Filter>Header Files\sticker\common</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\common\fontManager.h">
+      <Filter>Header Files\sticker\common</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\common\Line.h">
+      <Filter>Header Files\sticker\common</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\common\perChar.h">
+      <Filter>Header Files\sticker\common</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\common\common.h">
+      <Filter>Header Files\sticker\common</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\show\panorama.h">
+      <Filter>Header Files\sticker\show</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\show\LineShow.h">
+      <Filter>Header Files\sticker\show</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\stickerRow\picRow.h">
+      <Filter>Header Files\sticker\stickerRow</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\stickerRow\stickerRow.h">
+      <Filter>Header Files\sticker\stickerRow</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\stickerRow\textRow.h">
+      <Filter>Header Files\sticker\stickerRow</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\stickerRow\emptyRow.h">
+      <Filter>Header Files\sticker\stickerRow</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\cursorBlinker.h">
+      <Filter>Header Files\sticker</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\stickerRegions.h">
+      <Filter>Header Files\sticker</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\wndFocusManager.h">
+      <Filter>Header Files\sticker</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\common\unicodeLib.h">
+      <Filter>Header Files\sticker\common</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\common\clipBoard.h">
+      <Filter>Header Files\sticker\common</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\bmp\BMP.h">
+      <Filter>Header Files\sticker\bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\bmp\BMPDef.h">
+      <Filter>Header Files\sticker\bmp</Filter>
+    </ClInclude>
+    <ClInclude Include="sticker\bmp\ReadFileContentInBi.h">
+      <Filter>Header Files\sticker\bmp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NoteBookDll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sticker\common\fontManager.cpp">
+      <Filter>Source Files\sticker\common</Filter>
+    </ClCompile>
+    <ClCompile Include="sticker\common\Line.cpp">
+      <Filter>Source Files\sticker\common</Filter>
+    </ClCompile>
+    <ClCompile Include="sticker\show\LineShow.cpp">
+      <Filter>Source Files\sticker\show</Filter>
+    </ClCompile>
+    <ClCompile Include="sticker\show\panorama.cpp">
+      <Filter>Source Files\sticker\show</Filter>
+    </ClCompile>
+    <ClCompile Include="sticker\stickerRow\emptyRow.cpp">
+      <Filter>Source Files\sticker\stickerRow</Filter>
+    </ClCompile>
+    <ClCompile Include="sticker\stickerRow\picRow.cpp">
+      <Filter>Source Files\sticker\stickerRow</Filter>
+    </ClCompile>
+    <ClCompile Include="sticker\stickerRow\textRow.cpp">
+      <Filter>Source Files\sticker\stickerRow</Filter>
+    </ClCompile>
+    <ClCompile Include="sticker\cursorBlinker.cpp">
+      <Filter>Source Files\sticker</Filter>
+    </ClCompile>
+    <ClCompile Include="sticker\stickerRegions.cpp">
+      <Filter>Source Files\sticker</Filter>
+    </ClCompile>
+    <ClCompile Include="sticker\wndFocusManager.cpp">
+      <Filter>Source Files\sticker</Filter>
+    </ClCompile>
+    <ClCompile Include="sticker\common\unicodeLib.cpp">
+      <Filter>Source Files\sticker\common</Filter>
+    </ClCompile>
+    <ClCompile Include="sticker\common\clipBoard.cpp">
+      <Filter>Source Files\sticker\common</Filter>
+    </ClCompile>
+    <ClCompile Include="sticker\bmp\BMP.cpp">
+      <Filter>Source Files\sticker\bmp</Filter>
+    </ClCompile>
+    <ClCompile Include="sticker\bmp\ReadFileContentInBi.cpp">
+      <Filter>Source Files\sticker\bmp</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
