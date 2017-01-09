@@ -3,3 +3,13 @@ git commit -m "msg"     git 提交的方法
 
 git log        查看所有log的方法
 git log directory/fileName 查看文件夹或者文件名log的方法
+
+git branch -a         查看远处分支
+git branch            查看本地分支
+git branch test       在本地创建一个test分支
+git push origin test  把创建的test推送到远程分支
+git checkout test     切换到test分支
+git branch -d xxxxx   删除本地分支
+下面两步是删除远程分支
+git branch -r -d origin/branch-name  
+git push origin :branch-name 
