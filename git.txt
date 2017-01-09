@@ -1,0 +1,5 @@
+
+git commit -m "msg"     git 提交的方法
+
+git log        查看所有log的方法
+git log directory/fileName 查看文件夹或者文件名log的方法
