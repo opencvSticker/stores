@@ -13,3 +13,10 @@ git branch -d xxxxx   删除本地分支
 下面两步是删除远程分支
 git branch -r -d origin/branch-name  
 git push origin :branch-name 
+
+git log master ^origin/master     查看已经commit，但是没有push的提交
+git log 本地branch ^远程分支      可以查看本地有远程没有的提交。
+git log 远程分子 ^本地branch      可以查看远程有，本地没有的提交。
+
+
+git pull     更新本地代码
