@@ -100,6 +100,14 @@ LRESULT CALLBACK windowProc(
 {
 	if (uMsg == WM_CREATE)
 	{
+#ifdef _WIN64
+		LONG styleValue = ::GetWindowLongPtr(hwnd, GWL_STYLE);
+		::SetWindowLongPtr(hwnd, GWL_STYLE, styleValue | WS_CLIPCHILDREN);
+#else
+		LONG styleValue = ::GetWindowLong(hwnd, GWL_STYLE);
+		::SetWindowLong(hwnd, GWL_STYLE, styleValue | WS_CLIPCHILDREN);
+#endif
+
 		HANDLE handle = (HANDLE)_beginthreadex(NULL, 0, createChildWnd, hwnd, NULL, NULL);
 		
 		hWndTothreadMap[hwnd] = GetThreadId(handle);
